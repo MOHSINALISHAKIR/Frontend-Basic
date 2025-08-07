@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-h1{
+/* h1{
     text-align: center;
      color: white;
      background-color: #000000;
@@ -29,4 +29,31 @@ input{
     width: full;
     outline: none;
     height: 20px;
+} */
+ h1{
+    text-align: center;
+
+ }
+
+.container{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0 auto;
+    box-shadow: 2px 2px 12px red;
+    
+}
+.container:hover{
+    
+    transform: scale(0.8);
+}
+.items{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color:black
 }
