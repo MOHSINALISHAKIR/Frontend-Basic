@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+     color: white;
+     background-color: #000000;
+     padding: 3px 2px;
+}
+p{
+    
+    font-style: italic;
+    color:green;
+    background-color: greenyellow;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+input{
+    width: full;
+    outline: none;
+    height: 20px;
+}
