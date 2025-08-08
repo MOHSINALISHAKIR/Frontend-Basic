@@ -44,16 +44,22 @@ input{
     align-items: center;
     justify-content: space-evenly;
     margin:0 auto;
-    box-shadow: 2px 2px 12px red;
     
 }
 .container:hover{
-    
-    transform: scale(0.8);
+    box-shadow: 2px 2px 112px red;
+
 }
+
 .items{
     width: 30px;
     height: 30px;
     background-color: red;
-    color:black
+    color:black;
+    transition: background-color 1s ease-in-out 0.2s;
+}
+.items:hover{
+    background-color: palevioletred;
+    color: red;
+    box-sizing: border-box;
 }
